@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Vihcle | Electric Vehicle | E</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <!-- our css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.1/swiper-bundle.min.js"
+    integrity="sha512-c2sIYWk6Ikmd58ksT9Zuhn9A7vXm7g9mioknpzLY9bmXXqd/m+79em0QLOEo2w5Qz9MwpwinPCqjqbwJchyUyA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.1/swiper-bundle.css"
+    integrity="sha512-LZuATklLAriQzj14UjkY1lvEvVJNOQLjuQ34tn7+/RU/mv0bgmkEyMROrbOoAIAAK80JE1rcm35kpHjaBvLNoA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- our js file -->
+  <script src="script.js"></script>
+</head>
+<body>
+   <!-- header html  -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="headercontent">
+          <div class="ev-logo">
+            <img src="./image/logo.png" alt="">
+          </div>
+          <div class="navlist">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About us</a></li>
+              <li class="ev-brand"> <a href="">Brands</a>
+                <div class="ev-submenu">
+                  <ul>
+                    <li><a href="">submenu</a></li>
+                    <li><a href="">submenu</a></li>
+                    <li><a href="">submenu</a></li>
+                    <li><a href="">submenu</a></li>
+                  </ul>
+                 </div>
+              </li>
+              <li class="ev-categry"><a href="">Category</a>
+                 <div class="ev-submenu">
+                  <ul>
+                    <li><a href="">submenu</a></li>
+                    <li><a href="">submenu</a></li>
+                    <li><a href="">submenu</a></li>
+                    <li><a href="">submenu</a></li>
+                  </ul>
+                 </div>
+              </li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+   <!-- header html  close-->
+  <!-- hero html -->
+  <div class="herobanner home">
+    <div class="swiper-container">
+      <!-- swiper slides -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"
+          style="background-image: url(./image/slide1.png);">
+          <!-- <h2>SIMPLE SWIPER</h2> -->
+        </div>
+        <div class="swiper-slide"
+          style="background-image: url(./image/slide2.png);">
+          <!-- <h2>HELLO WORLD</h2> -->
+        </div>
+        <div class="swiper-slide"
+          style="background-image: url(./image/slide3.png);">
+          <!-- <h2>Random Text 1</h2> -->
+        </div>
+        <div class="swiper-slide"
+          style="background-image: url(./image/slide2.png);">
+          <!-- <h2>HELLO WORLD</h2> -->
+        </div>
+      </div>
+      <!-- !next / prev arrows -->
+      <!-- pagination dots -->
+      <div class="swiper-pagination"></div>
+      <!-- !pagination dots -->
+    </div>
+  </div>
+  <script>
+    var Swipes = new Swiper('.herobanner .swiper-container', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      // autoplay: {
+      //   delay: 5000,
+      // },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  </div>
+ <!-- hero html close-->
+  <!--information  Card content -->
+  <div class="ev-container-card">
+    <div class="container ev-card-wrapper-container">
+        <div class="ev-card-heading">
+            <p class="ev-heading-part1">WE ARE</p>
+            <h2 class="ev-heading-part2">PROVIDING THE</h2>
+            <h2 class="ev-heading-part3"><span class="ev-color-text">ELECTRIC </span>VEHICLES</h2>
+            <p class="ev-heading-part4"> INFORMATION.</p>
+        </div>
+        <div class="row ev-row">
+            <div class="col-sm-4 mb-3 mb-sm-0 ev-col">
+                <div class="card ev-card">
+                    <img src="./image/product_img/upcoming_img.png" class="card-img-top" alt="./image/product_img/upcoming_img.png.">
+                    <div class="card-body">
+                        <h5 class="card-title">Upcoming Vehicle</h5>
+                        <p class="card-text">Check out detailed images of Mahindra BE 05 here. Various detailed aspects of the car,
+                             including its features...</p>
+                        <a href="#" class="btn btn-primary">see more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0 ev-col">
+                <div class="card ev-card">
+                    <img src="./image/product_img/lounch_img.png" class="card-img-top" alt="./image/product_img/lounch_img.png">
+                    <div class="card-body">
+                        <h5 class="card-title">New Lounch Vehicle</h5>
+                        <p class="card-text">MG Comet EV price starts at Rs. 7.98 Lakh and goes upto Rs. 9.98 Lakh (Avg. ex-showroom).
+                        .
+                        </p>
+                        <a href="#" class="btn btn-primary">see more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0 ev-col">
+                <div class="card ev-card">
+                    <img src="./image/product_img/popular_img.png" class="card-img-top" alt="./image/product_img/popular_img.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Popular Vehicle</h5>
+                        <p class="card-text">Tata Tiago EV price in India starts from ₹ 8.69 Lakh. Tiago EV is available in 5
+                             colours - Tropical Mist</p>
+                        <a href="#" class="btn btn-primary">see more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- recent post -->
+<div class="recent-post-and-add-section container">
+    <div class="ev-recent-post">
+        <div class="ev-recent-post-heading">
+            <h3>Recent post</h3>
+        </div>
+        <div class="card mb-3 ev-recent-post-tab">
+            <a href="#" class="row g-0 ev-recent-post-row">
+                <div class="col-md-2 ev-recent-img">
+                    <img src="./image/product_img/upcoming_img.png" class="img-fluid rounded-start"
+                        alt="./image/product_img/upcoming_img.png">
+                </div>
+                <div class="col-md-10 ev-recent-content">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahindra BE 05</h5>
+                        <p class="card-text">Check out detailed images of Mahindra BE 05 here. Various detailed aspects of the car, including its features, powertrain and underpinnings can be seen in the pictures here. There are 16 images in total, including 7 exterior images, 9 interior images.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3 ev-recent-post-tab">
+            <a href="#" class="row g-0 ev-recent-post-row">
+                <div class="col-md-2 ev-recent-img">
+                    <img src="./image/product_img/lounch_img.png" class="img-fluid rounded-start"
+                        alt="./image/product_img/lounch_img.png">
+                </div>
+                <div class="col-md-10 ev-recent-content">
+                    <div class="card-body">
+                        <h5 class="card-title">MG Comet EV</h5>
+                        <p class="card-text">MG Comet EV price starts at Rs. 7.98 Lakh and goes upto Rs. 9.98 Lakh (Avg. ex-showroom). Comet EV comes in 3 variants. Comet EV price for base model in electric is Rs. 7.98 Lakh. Whereas the price of Comet EV automatic version starts from Rs. 7.98 Lakh.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="card mb-3 ev-recent-post-tab">
+            <a href="#" class="row g-0 ev-recent-post-row">
+                <div class="col-md-2 ev-recent-img">
+                    <img src="./image/product_img/popular_img.png" class="img-fluid rounded-start"
+                        alt="./image/product_img/popular_img.png">
+                </div>
+                <div class="col-md-10 ev-recent-content">
+                    <div class="card-body">
+                        <h5 class="card-title">Tata Tiago EV</h5>
+                        <p class="card-text">Tata Tiago EV price in India starts from ₹ 8.69 Lakh. Tiago EV is available in 5 colours - Tropical Mist, Signature Teal Blue, Daytona Grey, Pristine White, and Midnight Plum. Tiago EV seating capacity is 5 People. Tiago EV has received 4 Star (Global NCAP) star NCAP Rating safety rating..</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- recent post end -->
+    <!-- adds section -->
+    <div class="ev-add-section">
+        <div class="card mb-3 text-center ev-add-tab">
+            <div class="card-body">
+                <a href="#" class="ev-adds">Adds</a>
+            </div>
+        </div>
+        <div class="card mb-3 text-center ev-add-tab">
+            <div class="card-body">
+                <a href="#" class="ev-adds">Adds</a>
+            </div>
+        </div>
+        <div class="card mb-3 text-center ev-add-tab">
+            <div class="card-body">
+                <a href="#" class="ev-adds">Adds</a>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- footer seection  -->
+   <!-- footer  -->
+   <footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>New Delhi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <!-- <h4>Call us</h4>
+                            <span>9310241672</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>info@electricvihcle.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="./image/logo.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>we have created this website to provide the latest information about electric vehicles. We also provide
+                             an online platform where you can purchase spare parts for your electric vehicle.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2018, All Right Reserved <a href="http://electricvihcle.com/">electricvihcle</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- footer end -->
+  <!-- footer seection  close-->
+
+  <script>
+
+    var nav = document.querySelectorAll('.navlist ul li');
+    var url = window.location.href;
+    nav.forEach(function(el){
+        var a = el.querySelector('a')
+        if(url.indexOf('/') > -1 && a.getAttribute('href').indexOf('/index') > -1){
+            el.classList.add('ev-active-nav')
+        }
+    })
+   
+  </script>
+</body>
+</html>
